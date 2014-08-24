@@ -9,59 +9,63 @@ $ACADVER
   1
 AC1009
   9
-$DIMASZ
- 40
-0.25
-  9
 $GRIDUNIT
  10
 0.0
  20
 0.0
   9
+$DIMASZ
+ 40
+0.25
+  9
 $DIMGAP
  40
 0.0625
-  9
-$SPLINESEGS
- 70
-8
-  9
-$AUPREC
- 70
-2
   9
 $LUNITS
  70
 2
   9
+$AUPREC
+ 70
+2
+  9
+$SPLINESEGS
+ 70
+8
+  9
 $DIMEXO
  40
 0.0625
-  9
-$DIMTXT
- 40
-0.25
   9
 $GRIDMODE
  70
 1
   9
+$DIMTXT
+ 40
+0.25
+  9
 $LUPREC
  70
 4
   9
-$PLIMMAX
- 10
-8.2677165354330722
- 20
-11.6929133858267722
+$DIMSTYLE
+  2
+Standard
   9
 $PLIMMIN
  10
 0.0
  20
 0.0
+  9
+$PLIMMAX
+ 10
+8.2677165354330722
+ 20
+11.6929133858267722
   9
 $DIMEXE
  40
@@ -579,7 +583,7 @@ TABLE
   2
 LAYER
  70
-17
+18
   0
 LAYER
   2
@@ -673,7 +677,7 @@ CONTINUOUS
   0
 LAYER
   2
-adapter_magnet_pocket_hole
+adapter_magnet_pocket
  70
 0
  62
@@ -748,6 +752,16 @@ stock_screw_head
 0
  62
 8
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+guard_magnet_pocket
+ 70
+0
+ 62
+2
   6
 CONTINUOUS
   0
@@ -981,7 +995,7 @@ stock_boundary
   0
 CIRCLE
   8
-adapter_magnet_pocket_hole
+adapter_magnet_pocket
  10
 21.0862284800037258
  20
@@ -1145,7 +1159,7 @@ adapter_boundary
   0
 CIRCLE
   8
-adapter_magnet_pocket_hole
+adapter_magnet_pocket
  10
 13.5862284800037276
  20
@@ -1746,6 +1760,30 @@ stock_thru_hole_6-32
 0.0
  40
 0.072
+  0
+CIRCLE
+  8
+guard_magnet_pocket
+ 10
+3.201360310941924
+ 20
+3.6136907802507197
+ 30
+0.0
+ 40
+0.26
+  0
+CIRCLE
+  8
+guard_magnet_pocket
+ 10
+10.7013603109419222
+ 20
+3.6136907802507197
+ 30
+0.0
+ 40
+0.26
   0
 ENDSEC
   0

@@ -4,7 +4,10 @@ import sys
 from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
-fileName = 'crp2448_chip_guard.dxf'
+side = sys.argv[1]
+if not side in ('left','right'):
+    raise ValueError, 'side must be either left or right'
+fileName = 'crp2448_chip_guard_{0}.dxf'.format(side)
 
 feedrate = 120.0
 thruDepth = 0.27
@@ -65,6 +68,6 @@ prog.add(gcode_cmd.ExactPathMode())
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.End(),comment=True)
 baseName, dummy = os.path.splitext(__file__)
-fileName = '{0}.ngc'.format(baseName)
+fileName = '{0}_{1}.ngc'.format(baseName,side)
 print('generating: {0}'.format(fileName))
 prog.write(fileName)
