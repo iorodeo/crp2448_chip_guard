@@ -1,0 +1,353 @@
+
+; Generic Start
+G40 (Cancel cutter radius compensation)
+G49 (Cancel tool length offset)
+G80 (Cancel canned cycle)
+G54 (Select coordinate system 1)
+G90 (Set absolute distance mode)
+G20 (Set units to inches)
+G61 (Exact path mode)
+
+F 25.0
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: [u'mount_tap_hole_6-32', u'guard_tap_hole_6-32', u'adapter_tap_hole_6-32']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.27
+; startDwell: 2.0
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 13.58622848
+; centerY: 9.64855744
+; stepZ: 0.03
+; dwg: <dxfgrabber.drawing.Drawing object at 0x333ad10>
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X13.58622848 Y9.64855744
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X13.58622848 Y9.64855744 Z-0.27 R0.0 Q0.03
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: [u'mount_tap_hole_6-32', u'guard_tap_hole_6-32', u'adapter_tap_hole_6-32']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.27
+; startDwell: 2.0
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 21.08622848
+; centerY: 9.64855744
+; stepZ: 0.03
+; dwg: <dxfgrabber.drawing.Drawing object at 0x333ad10>
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X21.08622848 Y9.64855744
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X21.08622848 Y9.64855744 Z-0.27 R0.0 Q0.03
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: [u'mount_tap_hole_6-32', u'guard_tap_hole_6-32', u'adapter_tap_hole_6-32']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.27
+; startDwell: 2.0
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 3.76728619864
+; centerY: 11.2590868828
+; stepZ: 0.03
+; dwg: <dxfgrabber.drawing.Drawing object at 0x333ad10>
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X3.76728620 Y11.25908688
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X3.76728619864 Y11.2590868828 Z-0.27 R0.0 Q0.03
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: [u'mount_tap_hole_6-32', u'guard_tap_hole_6-32', u'adapter_tap_hole_6-32']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.27
+; startDwell: 2.0
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 3.76728619864
+; centerY: 10.4090868828
+; stepZ: 0.03
+; dwg: <dxfgrabber.drawing.Drawing object at 0x333ad10>
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X3.76728620 Y10.40908688
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X3.76728619864 Y10.4090868828 Z-0.27 R0.0 Q0.03
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: [u'mount_tap_hole_6-32', u'guard_tap_hole_6-32', u'adapter_tap_hole_6-32']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.27
+; startDwell: 2.0
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 7.51728619864
+; centerY: 11.2590868828
+; stepZ: 0.03
+; dwg: <dxfgrabber.drawing.Drawing object at 0x333ad10>
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X7.51728620 Y11.25908688
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X7.51728619864 Y11.2590868828 Z-0.27 R0.0 Q0.03
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: [u'mount_tap_hole_6-32', u'guard_tap_hole_6-32', u'adapter_tap_hole_6-32']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.27
+; startDwell: 2.0
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 7.51728619864
+; centerY: 10.4090868828
+; stepZ: 0.03
+; dwg: <dxfgrabber.drawing.Drawing object at 0x333ad10>
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X7.51728620 Y10.40908688
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X7.51728619864 Y10.4090868828 Z-0.27 R0.0 Q0.03
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: [u'mount_tap_hole_6-32', u'guard_tap_hole_6-32', u'adapter_tap_hole_6-32']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.27
+; startDwell: 2.0
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 11.2672861986
+; centerY: 11.2590868828
+; stepZ: 0.03
+; dwg: <dxfgrabber.drawing.Drawing object at 0x333ad10>
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X11.26728620 Y11.25908688
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X11.2672861986 Y11.2590868828 Z-0.27 R0.0 Q0.03
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: [u'mount_tap_hole_6-32', u'guard_tap_hole_6-32', u'adapter_tap_hole_6-32']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.27
+; startDwell: 2.0
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 11.2672861986
+; centerY: 10.4090868828
+; stepZ: 0.03
+; dwg: <dxfgrabber.drawing.Drawing object at 0x333ad10>
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X11.26728620 Y10.40908688
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X11.2672861986 Y10.4090868828 Z-0.27 R0.0 Q0.03
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: [u'mount_tap_hole_6-32', u'guard_tap_hole_6-32', u'adapter_tap_hole_6-32']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.27
+; startDwell: 2.0
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 3.20136031094
+; centerY: 3.61369078025
+; stepZ: 0.03
+; dwg: <dxfgrabber.drawing.Drawing object at 0x333ad10>
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X3.20136031 Y3.61369078
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X3.20136031094 Y3.61369078025 Z-0.27 R0.0 Q0.03
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: [u'mount_tap_hole_6-32', u'guard_tap_hole_6-32', u'adapter_tap_hole_6-32']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.27
+; startDwell: 2.0
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 10.7013603109
+; centerY: 3.61369078025
+; stepZ: 0.03
+; dwg: <dxfgrabber.drawing.Drawing object at 0x333ad10>
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X10.70136031 Y3.61369078
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X10.7013603109 Y3.61369078025 Z-0.27 R0.0 Q0.03
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+M2 (End program)
