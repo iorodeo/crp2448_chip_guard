@@ -1,19 +1,20 @@
-Machining Operations.
-
+Machining Operations. Two separate jobs: the 1st for the left side guard and
+the 2nd for the right side guard. Both are cut from a 24"x12" sheet of acrlyic.
 
 0. Secure parts to spoil board with double sided tap. Try not to put tap
    in areas where the tool will cut through. Note, it doesn't need to be
    super secure as we only need this for drilling. 
 
-1. Drill 6-32 tap holes, files: drill_6-32-tap.py, drill_6-32-tap.ngc 
+1. Drill 6-32 through holes, files: drill_6-32_thru.py, drill_6-32_thru.ngc 
 
-2. Drill 6-32 through holes, files: drill_6-32_thru.py, drill_6-32_thru.ngc 
+2. Secure parts to spoil board via 6-32 through holes with wood screws. 
 
-3. Secure parts to spoil board with wood screws. #4 for 6-32 tap and #6 for
-   6-32 thru.
-
-4. Mill with 0.25" cutter (hard plastic type), files: mill_0p25.py,
+3. Mill with 0.25" cutter (o-flute type?), files: mill_0p25.py,
    mill_0p25.ngc
 
-5. Mill wiht 0.375" cutter (hard plastic type), files: mill_0p375.py,
+4. Drill 6-32 tap holes, files: drill_6-32-tap.py, drill_6-32-tap.ngc 
+
+5. Secure parts via 6-32 tap holes for fixturing during cutout. 
+
+6. Mill wiht 0.375" cutter (hard plastic type), files: mill_0p375.py,
    mill_0p375.ngc

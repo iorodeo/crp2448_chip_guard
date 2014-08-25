@@ -15,6 +15,7 @@ feedrate = 25.0
 dwg = dxfgrabber.readfile(fileName)
 layerNames = [layer.name for layer in dwg.layers]
 layerNames = [name for name in layerNames if 'tap_hole_6-32' in name]
+#layerNames = ['guard_tap_hole_6-32', 'adapter_tap_hole_6-32']
 
 prog = gcode_cmd.GCodeProg()
 prog.add(gcode_cmd.GenericStart())

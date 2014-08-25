@@ -22,7 +22,7 @@ F 25.0
 ; centerX: 13.58622848
 ; centerY: 10.07355744
 ; stepZ: 0.03
-; dwg: <dxfgrabber.drawing.Drawing object at 0x3fd3cd0>
+; dwg: <dxfgrabber.drawing.Drawing object at 0xa5ec58c>
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -56,7 +56,7 @@ G0 Z0.30000000
 ; centerX: 13.58622848
 ; centerY: 9.22355744
 ; stepZ: 0.03
-; dwg: <dxfgrabber.drawing.Drawing object at 0x3fd3cd0>
+; dwg: <dxfgrabber.drawing.Drawing object at 0xa5ec58c>
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -90,7 +90,7 @@ G0 Z0.30000000
 ; centerX: 21.08622848
 ; centerY: 10.07355744
 ; stepZ: 0.03
-; dwg: <dxfgrabber.drawing.Drawing object at 0x3fd3cd0>
+; dwg: <dxfgrabber.drawing.Drawing object at 0xa5ec58c>
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -124,7 +124,7 @@ G0 Z0.30000000
 ; centerX: 21.08622848
 ; centerY: 9.22355744
 ; stepZ: 0.03
-; dwg: <dxfgrabber.drawing.Drawing object at 0x3fd3cd0>
+; dwg: <dxfgrabber.drawing.Drawing object at 0xa5ec58c>
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -158,7 +158,7 @@ G0 Z0.30000000
 ; centerX: 17.33622848
 ; centerY: 10.07355744
 ; stepZ: 0.03
-; dwg: <dxfgrabber.drawing.Drawing object at 0x3fd3cd0>
+; dwg: <dxfgrabber.drawing.Drawing object at 0xa5ec58c>
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -192,7 +192,7 @@ G0 Z0.30000000
 ; centerX: 17.33622848
 ; centerY: 9.22355744
 ; stepZ: 0.03
-; dwg: <dxfgrabber.drawing.Drawing object at 0x3fd3cd0>
+; dwg: <dxfgrabber.drawing.Drawing object at 0xa5ec58c>
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -226,7 +226,7 @@ G0 Z0.30000000
 ; centerX: 4.26728619864
 ; centerY: 9.45908688283
 ; stepZ: 0.03
-; dwg: <dxfgrabber.drawing.Drawing object at 0x3fd3cd0>
+; dwg: <dxfgrabber.drawing.Drawing object at 0xa5ec58c>
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -260,7 +260,7 @@ G0 Z0.30000000
 ; centerX: 10.7672861986
 ; centerY: 9.45908688283
 ; stepZ: 0.03
-; dwg: <dxfgrabber.drawing.Drawing object at 0x3fd3cd0>
+; dwg: <dxfgrabber.drawing.Drawing object at 0xa5ec58c>
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -294,7 +294,7 @@ G0 Z0.30000000
 ; centerX: 1.0
 ; centerY: 8.0
 ; stepZ: 0.03
-; dwg: <dxfgrabber.drawing.Drawing object at 0x3fd3cd0>
+; dwg: <dxfgrabber.drawing.Drawing object at 0xa5ec58c>
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -328,7 +328,7 @@ G0 Z0.30000000
 ; centerX: 1.0
 ; centerY: 11.0
 ; stepZ: 0.03
-; dwg: <dxfgrabber.drawing.Drawing object at 0x3fd3cd0>
+; dwg: <dxfgrabber.drawing.Drawing object at 0xa5ec58c>
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -362,7 +362,7 @@ G0 Z0.30000000
 ; centerX: 23.0
 ; centerY: 11.0
 ; stepZ: 0.03
-; dwg: <dxfgrabber.drawing.Drawing object at 0x3fd3cd0>
+; dwg: <dxfgrabber.drawing.Drawing object at 0xa5ec58c>
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -396,7 +396,7 @@ G0 Z0.30000000
 ; centerX: 23.0
 ; centerY: 8.0
 ; stepZ: 0.03
-; dwg: <dxfgrabber.drawing.Drawing object at 0x3fd3cd0>
+; dwg: <dxfgrabber.drawing.Drawing object at 0xa5ec58c>
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -430,7 +430,7 @@ G0 Z0.30000000
 ; centerX: 17.0
 ; centerY: 8.0
 ; stepZ: 0.03
-; dwg: <dxfgrabber.drawing.Drawing object at 0x3fd3cd0>
+; dwg: <dxfgrabber.drawing.Drawing object at 0xa5ec58c>
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -464,7 +464,7 @@ G0 Z0.30000000
 ; centerX: 0.15
 ; centerY: 0.2
 ; stepZ: 0.03
-; dwg: <dxfgrabber.drawing.Drawing object at 0x3fd3cd0>
+; dwg: <dxfgrabber.drawing.Drawing object at 0xa5ec58c>
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000

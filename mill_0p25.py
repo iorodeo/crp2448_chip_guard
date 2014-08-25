@@ -27,39 +27,41 @@ prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.FeedRate(feedrate))
 
 # Cut through holes
-layerNames = ['mount_carriage_thru_hole', 'mount_magnet_thru_hole']
-param = {
-        'fileName'     : fileName,
-        'layers'       : layerNames, 
-        'depth'        : thruDepth,
-        'startZ'       : startZ,
-        'safeZ'        : safeZ,
-        'toolDiam'     : toolDiam,
-        'toolOffset'   : 'inside',
-        'direction'    : direction,
-        'maxCutDepth'  : maxCutDepth,
-        'startDwell'   : startDwell,
-        }
-boundary = cnc_dxf.DxfCircBoundary(param)
-prog.add(boundary)
+if 1:
+    layerNames = ['mount_carriage_thru_hole', 'mount_magnet_thru_hole']
+    param = {
+            'fileName'     : fileName,
+            'layers'       : layerNames, 
+            'depth'        : thruDepth,
+            'startZ'       : startZ,
+            'safeZ'        : safeZ,
+            'toolDiam'     : toolDiam,
+            'toolOffset'   : 'inside',
+            'direction'    : direction,
+            'maxCutDepth'  : maxCutDepth,
+            'startDwell'   : startDwell,
+            }
+    boundary = cnc_dxf.DxfCircBoundary(param)
+    prog.add(boundary)
 
 # Mill magnet pocket
-layerNames = ['adapter_magnet_pocket', 'guard_magnet_pocket']
-param = {
-        'fileName'       : fileName,
-        'layers'         : layerNames,
-        'depth'          : magnetDepth,
-        'startZ'         : startZ,
-        'safeZ'          : safeZ,
-        'overlap'        : overlap,
-        'overlapFinish'  : overlapFinish,
-        'maxCutDepth'    : maxCutDepth,
-        'toolDiam'       : toolDiam,
-        'direction'      : direction,
-        'startDwell'     : startDwell,
-        }
-pocket = cnc_dxf.DxfCircPocket(param)
-prog.add(pocket)
+if 1:
+    layerNames = ['adapter_magnet_pocket', 'guard_magnet_pocket']
+    param = {
+            'fileName'       : fileName,
+            'layers'         : layerNames,
+            'depth'          : magnetDepth,
+            'startZ'         : startZ,
+            'safeZ'          : safeZ,
+            'overlap'        : overlap,
+            'overlapFinish'  : overlapFinish,
+            'maxCutDepth'    : maxCutDepth,
+            'toolDiam'       : toolDiam,
+            'direction'      : direction,
+            'startDwell'     : startDwell,
+            }
+    pocket = cnc_dxf.DxfCircPocket(param)
+    prog.add(pocket)
 
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.End(),comment=True)
